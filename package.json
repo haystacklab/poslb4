@@ -2,10 +2,10 @@
   "nodemonConfig": {
     "verbose": true,
     "watch": [
-    "src/"
+      "src/"
     ],
     "ignore": [
-    "dist/*"
+      "dist/*"
     ],
     "ext": "ts",
     "exec": "npm start"
@@ -67,6 +67,7 @@
     "@loopback/rest": "^9.2.0",
     "@loopback/rest-explorer": "^3.2.0",
     "@loopback/service-proxy": "^3.1.0",
+    "loopback-connector-mongodb": "^5.5.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
